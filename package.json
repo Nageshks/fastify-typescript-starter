@@ -7,7 +7,8 @@
     "dev": "cross-env NODE_ENV=development nodemon",
     "format": "prettier --write \"src/**/*.ts\"",
     "build": "rimraf dist && tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "install-packages": "pnpm install"
   },
   "author": "Matschik <mathieu.schimmerling@protonmail.com>",
   "license": "MIT",
